@@ -4,10 +4,11 @@
 
 * {
 	color: black;
-	background-color:white
+	background-color: whitesmoke
 }
 
-* {
+ h5 {
+	color:rgb(189, 189, 189)
 	
 	
 }
@@ -26,7 +27,7 @@
 }
 
 .wrapper {
-	margin: 0 auto;
+	margin: auto;
 	width: 1000px;
 }
 
@@ -34,7 +35,9 @@
 	width: 300px;
 }
 
-
+.img-bisky {
+	width: 300px;
+}
 .img-pizza {
 	width: 300px;
 }
@@ -73,7 +76,7 @@
 }
 
 
-.img-chanel {
+.img-selfportrait {
 	width: 300px;
 }
 .img-shoe {
@@ -99,13 +102,13 @@
 .img-alien {
 	width: 300px;
 }
-.img-ibex {
+.img-handsboy {
 	width: 300px;
 }
-.img-vegyn {
+.img-mickeypix {
 	width: 300px;
 }
-.img-self2 {
+.img-selfbig {
 	width: 300px;
 }
 .img-self1 {
@@ -117,7 +120,7 @@
 .img-iphone {
 	width: 200px;
 }
-.img-jesus {
+.img-laurendraw {
 	width: 300px;
 }
 .img-dill {
