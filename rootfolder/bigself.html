@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Bisky</title>
+	</head>
+    <body>
+        <h1>Digital Gallery of Jayden Kunysz</h1>
+        <br>
+        <strong><em>Freeze Myself in Drowning Water (2022)</em></strong>
+        <br>
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+     
+      <img src="img/selfbig.jpg" style="width:100%">
+      
+    </div>
+  
+    <div class="mySlides fade">
+     
+      <img src="img/selfalt.jpeg" style="width:100%">
+     
+    </div>
+  
+
+    <!-- Next and previous buttons -->
+ 
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:match-parent">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    
+  </div>
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+
+
+
+
+
+       <p>30x48in.</p>
+        <p><em>1mm black pen on canvas.</em></p>
+        <p>This 4-foot-tall piece was completed on my 20th birthday.  Still my biggest piece to date.  The amount of dots I had dotted had made my vision blur whenever I tried working on it.  I never hated something more than this piece; before its completion.</p>
+    </body>
